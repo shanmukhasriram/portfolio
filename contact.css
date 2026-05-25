@@ -1,0 +1,78 @@
+
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#111;
+color:white;
+padding:15px 60px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:17px;
+}
+
+nav ul li a:hover{
+color:#00adb5;
+}
+
+/* CONTACT PAGE */
+
+.contact{
+padding:80px;
+text-align:center;
+}
+
+.contact h1{
+margin-bottom:40px;
+}
+
+.contact-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:40px;
+}
+
+.contact-card{
+background:white;
+padding:30px;
+width:300px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.contact-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.contact-card img{
+width:100px;
+margin-bottom:15px;
+}
+
+.contact-card p{
+font-size:16px;
+}

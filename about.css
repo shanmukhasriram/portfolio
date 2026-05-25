@@ -1,0 +1,116 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#111;
+color:white;
+padding:15px 60px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:17px;
+}
+
+nav ul li a:hover{
+color:#00adb5;
+}
+
+
+/* ABOUT SECTION */
+
+.about-container{
+display:flex;
+gap:40px;
+padding:60px;
+}
+
+.about-left{
+flex:1;
+}
+
+.personal-box{
+background:white;
+padding:20px;
+border-radius:10px;
+margin-top:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-right{
+flex:1;
+}
+
+.edu-card{
+background:white;
+padding:20px;
+border-radius:10px;
+margin-bottom:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.edu-card:hover{
+transform:translateY(-5px);
+}
+
+
+/* SKILLS */
+
+.skills{
+padding:60px;
+text-align:center;
+}
+
+.skills-grid{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+margin-top:30px;
+}
+
+.skill-card{
+background:white;
+padding:20px;
+width:200px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.skill-card span{
+display:inline-block;
+background:#00adb5;
+color:white;
+padding:6px 12px;
+margin:5px;
+border-radius:20px;
+font-size:14px;
+}
+
+
+/* EXTRA */
+
+.extra{
+padding:60px;
+text-align:center;
+}
